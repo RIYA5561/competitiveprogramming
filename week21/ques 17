@@ -1,0 +1,9 @@
+public class r1 {
+    // Create a class with a static final variable (a constant), e.g., PI = 3.14. Try changing it.
+    static final double PI = 3.14;
+    public static void main(String[] args) {
+        System.out.println("Value of PI: " + PI);
+    }
+
+    
+}
