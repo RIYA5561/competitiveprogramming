@@ -1,0 +1,76 @@
+1. What is the difference between JDK and JRE?
+
+Ans. 
+JDK - Java Development Kit
+JRE - Java Runtime Environment
+
+JRE is the subset of JDK or we can say JDK Core package is JRE
+
+JDK is use to a Development platform to build java program
+JRE is use to run the java program on your machine
+
+JDK Provides the necessary tool to write programs and run by JRE AND JVm
+JRE is the on-disk part of Java that creates the JVM and loads programs into them
+
+JDK = JRE+Development Tool
+
+----------------------------------------------------------------------------------------------
+2. What is Java Virtual Machine (JVM)?
+
+Ans. JVM - Java Virtual Machine
+JVM is a Virtual machine that has an abstract Computer that has its own ,memory,stack,heap. It runs on Os and place it demand to resources 
+JVM includes - 1. Class Loader
+                2.Linking Instilization
+                3. Runtime Time Data area
+                4. Excution Engine
+                5. Java Native Interface
+                6. Native method libaries
+
+
+-----------------------------------------------------------------------------------------------
+
+3. What are the different types of memory areas allocated by JVM?
+
+Ans. it includes i) Program Counter
+                ii) stack
+                iii) heap 
+                iv) Runtime Constant Poll
+                v) Native method stack
+
+-----------------------------------------------------------------------------------------------
+4. What is JIT compiler?
+
+Ans. JIT is integral part of JVM 
+JIT works for converting the actual code in binary language by with the machine can understand it. According to the programming languages, compiler differs. The compiler is a program that converts the high-level language to machine level code. The Java programming language uses the compiler named javac. It converts the high-level language code into machine code (bytecode).
+
+-----------------------------------------------------------------------------------------------
+5.How Java platform is different from other platforms?
+
+Ans. The Java platform is independent, secure, network-friendly, and portable, unlike traditional platforms where programs are tightly coupled with hardware and OS.
+On the another hand
+The platform independent means when we write the code in Java , it is first covnerted into bytecode can run on any system that has the Java Runtime Environment (JRE) installed, which makes Java platform-independent
+
+-----------------------------------------------------------------------------------------------
+6. Why people say that Java is ‘write once and run anywhere’ language?
+
+Ans. Java is called 'write once, run anywhere' (WORA) language because of its platform independence. 
+When you write Java code, it gets compiled into bytecode (.class files) by the Java compiler (javac).
+This bytecode is not machine-specific code; instead, it's an intermediate code that can be understood by the Java Virtual Machine (JVM).
+The JVM acts as an interpreter that can run this bytecode on any platform (Windows, Mac, Linux, etc.) as long as that platform has a JVM installed for it.
+
+---------------------------------------------------------------------------------------------------
+
+7. How does ClassLoader work in Java?
+
+Ans.  The Java ClassLoader is a core component in JRE responsible for dynamically loading Java class into JVM during program Excution
+
+----------------------------------------------------------------------------------------------------
+8. Do you think ‘main’ used for main method is a keyword in Java?
+
+Ans. No, 'main' is not a keyword in Java. It is just a method name that serves as the entry point of a Java program. While it's a special identifier recognized by the JVM as the starting point of program execution, it's not a reserved word in Java.
+
+----------------------------------------------------------------------------------------------------
+9. Can we write main method as public void static instead of public static void?
+
+Ans. Java follows this standard convention:
+    Access modifier (public) → Non-access modifier.
