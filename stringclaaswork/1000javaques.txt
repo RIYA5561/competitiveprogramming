@@ -73,4 +73,4 @@ Ans. No, 'main' is not a keyword in Java. It is just a method name that serves a
 9. Can we write main method as public void static instead of public static void?
 
 Ans. Java follows this standard convention:
-    Access modifier (public) → Non-access modifier.
+    Access modifier (public) → Non-acce
