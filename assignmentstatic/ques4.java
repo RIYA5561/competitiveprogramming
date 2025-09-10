@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         Animal a = new Animal();
 
-        if (a instanceof Dog) {   // ✅ Safe check before casting
+        if (a instanceof Dog) {   //Safe check before casting
             Dog d = (Dog) a;
             d.bark();
         } else {
